@@ -1,1 +1,3 @@
-calculator/CalculatorTest.class
+calculator/operations/AdditionTest.class
+calculator/operations/SubtractionTest.class
+calculator/CalculatorTestSuite.class

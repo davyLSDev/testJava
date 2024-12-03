@@ -1,1 +1,3 @@
-/home/dawson/coding/AI-helped/testJava/src/test/java/calculator/CalculatorTest.java
+/home/dawson/coding/AI-helped/testJava/src/test/java/calculator/CalculatorTestSuite.java
+/home/dawson/coding/AI-helped/testJava/src/test/java/calculator/operations/AdditionTest.java
+/home/dawson/coding/AI-helped/testJava/src/test/java/calculator/operations/SubtractionTest.java
