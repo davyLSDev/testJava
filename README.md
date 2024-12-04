@@ -17,6 +17,8 @@ mvn clean
 * After changes to the pom.xml,
 mvn clean test
 
+* look at test coverage by opening target/site/jacoco/index.html in your browser
+
 ## Common JUnit annotations:
 * @Test - Marks a test method
 * @BeforeEach - Runs before each test
@@ -25,3 +27,10 @@ mvn clean test
 
 ## Testing in general
 * using JaCoCo for test coverage
+
+## Some files to ignore in the repo
+* target/
+Do that with: echo "target/" >> .gitignore
+And remove target/ from tracking with: git rm -r --cached target/
+
+
