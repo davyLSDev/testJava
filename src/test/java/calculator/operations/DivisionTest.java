@@ -31,9 +31,9 @@ public class DivisionTest {
 
     @Test
     void testDivisionWithNegativeNumbers() {
-        assertEquals(1, calculator.divide(-3, -2), "-3 / -2 should equal 1");
-        assertEquals(-1, calculator.divide(-4, 3), "-4 / 3 should equal -1");
-        assertEquals(-1, calculator.divide(4, -3), "4 / -3 should equal -1");
+        assertEquals(1.5, calculator.divide(-3, -2), "-3 / -2 should equal 1.5");
+        assertEquals(-1.3333333333333333, calculator.divide(-4, 3), "-4 / 3 should equal -1.3333333333333333");
+        assertEquals(-1.3333333333333333, calculator.divide(4, -3), "4 / -3 should equal -1.3333333333333333");
     }
 
 } 
